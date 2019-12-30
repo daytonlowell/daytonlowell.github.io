@@ -2187,7 +2187,7 @@
     	};
     }
 
-    // (116:6) {#if pickingMode}
+    // (115:6) {#if pickingMode}
     function create_if_block_3(ctx) {
     	let button0;
     	let t1;
@@ -2224,7 +2224,7 @@
     	};
     }
 
-    // (146:4) {:else}
+    // (145:4) {:else}
     function create_else_block_1(ctx) {
     	let button0;
     	let t1;
@@ -2261,7 +2261,7 @@
     	};
     }
 
-    // (140:4) {#if pickingMode}
+    // (139:4) {#if pickingMode}
     function create_if_block_2(ctx) {
     	let button;
     	let dispose;
@@ -2284,7 +2284,7 @@
     	};
     }
 
-    // (176:2) {:else}
+    // (175:2) {:else}
     function create_else_block(ctx) {
     	let current;
 
@@ -2326,7 +2326,7 @@
     	};
     }
 
-    // (168:29) 
+    // (167:29) 
     function create_if_block_1(ctx) {
     	let updating_items;
     	let updating_visibleItems;
@@ -2415,7 +2415,7 @@
     	};
     }
 
-    // (160:2) {#if channelPickMode}
+    // (159:2) {#if channelPickMode}
     function create_if_block(ctx) {
     	let updating_items;
     	let updating_visibleItems;
@@ -2666,7 +2666,6 @@
 
     		function colorSchemeChange(mql) {
     			$$invalidate(0, isDarkMode = mql.matches);
-    			console.log(`darkMode: ${isDarkMode}`);
     		}
 
     		mediaQueryList.addListener(colorSchemeChange);
